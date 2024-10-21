@@ -34,7 +34,6 @@ const OneRecipe = () => {
   }, [recipe._id]);
 
   // Function to handle posting a comment
-  // Function to handle posting a comment
   const handlePostComment = async () => {
     const username = JSON.parse(localStorage.getItem("username"));
 
