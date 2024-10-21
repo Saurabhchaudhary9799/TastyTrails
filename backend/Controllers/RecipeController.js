@@ -380,7 +380,7 @@ const deleteComment = async (req,res) => {
   try {
     // Extract comment ID from the request parameters
     const { commentId } = req.params;
-console.log(commentId)
+
     // Find the comment by ID and delete it
     const deletedComment = await Comment.findByIdAndDelete(commentId);
 
